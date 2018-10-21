@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.amazon.testscript.VerifyKindleOrderPageTest"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test name="IETest">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.amazon.testscript.VerifyKindleOrderPageTest"/>
+    </classes>
+  </test> <!-- IETest -->
+  <test name="IETest(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.amazon.testscript.VerifyKindleOrderPageTest">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="verifyAddToCartBtn"/>
+          <include name="verifyNoExtraItem"/>
+          <include name="closeDriver"/>
+          <include name="verifyKindle"/>
+          <include name="beforeMethod"/>
+          <include name="verifyQuantitySelection"/>
+          <include name="beforesuite"/>
+          <include name="verifySignIn"/>
+          <include name="verifyCheckout"/>
+          <include name="verifyKindlePaperWhite"/>
+          <include name="verifyQuantityDropdown"/>
+          <include name="verifyShopByDepartment"/>
+        </methods>
+      </class> <!-- com.amazon.testscript.VerifyKindleOrderPageTest -->
+    </classes>
+  </test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

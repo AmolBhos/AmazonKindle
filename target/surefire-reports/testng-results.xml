@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="9" failed="0" total="18" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60891" started-at="2018-10-21T17:09:59Z" finished-at="2018-10-21T17:11:00Z">
+    <groups>
+    </groups>
+    <test name="IETest" duration-ms="4069" started-at="2018-10-21T17:09:59Z" finished-at="2018-10-21T17:10:03Z">
+      <class name="com.amazon.testscript.VerifyKindleOrderPageTest">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="beforesuite" is-config="true" duration-ms="582" started-at="2018-10-21T22:39:58Z" finished-at="2018-10-21T22:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="FAIL" signature="setupDriver(java.lang.String)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="setupDriver" is-config="true" duration-ms="0" started-at="2018-10-21T22:39:59Z" finished-at="2018-10-21T22:39:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'AMOL-PC', ip: '192.168.43.95', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{capabilities={proxy={}, acceptInsecureCerts=false, browserVersion=8, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:34676/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, platformName=windows, setWindowRect=true}, sessionId=d9c2cdd7-8b50-44a9-ac69-df27ec4a67c1, platform=ANY}]
+Session ID: null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'AMOL-PC', ip: '192.168.43.95', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{capabilities={proxy={}, acceptInsecureCerts=false, browserVersion=8, se:ieOptions={nativeEvents=true, browserAttachTimeout=0, ie.ensureCleanSession=false, elementScrollBehavior=0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:34676/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ignoreProtectedModeSettings=false}, timeouts={implicit=0, pageLoad=300000, script=30000}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, platformName=windows, setWindowRect=true}, sessionId=d9c2cdd7-8b50-44a9-ac69-df27ec4a67c1, platform=ANY}]
+Session ID: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at com.amazon.test.ScriptFactory.setupDriver(ScriptFactory.java:89)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="SKIP" signature="verifyShopByDepartment()[pri:1, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="verifyShopByDepartment" duration-ms="2" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopByDepartment -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyKindle()[pri:2, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="verifyKindle" duration-ms="1" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKindle -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyKindlePaperWhite()[pri:3, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="verifyKindlePaperWhite" duration-ms="1" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKindlePaperWhite -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyQuantityDropdown()[pri:4, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="verifyQuantityDropdown" duration-ms="1" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuantityDropdown -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyQuantitySelection()[pri:5, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="verifyQuantitySelection" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuantitySelection -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyAddToCartBtn()[pri:6, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="verifyAddToCartBtn" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartBtn -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyNoExtraItem()[pri:7, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="verifyNoExtraItem" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoExtraItem -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="verifyCheckout()[pri:8, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="verifyCheckout" duration-ms="1" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckout -->
+        <test-method status="SKIP" signature="verifySignIn()[pri:9, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="verifySignIn" duration-ms="1" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignIn -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="closeDriver()[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@843fce]" name="closeDriver" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:03Z" finished-at="2018-10-21T22:40:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.amazon.testscript.VerifyKindleOrderPageTest -->
+    </test> <!-- IETest -->
+    <test name="ChromeTest" duration-ms="60891" started-at="2018-10-21T17:09:59Z" finished-at="2018-10-21T17:11:00Z">
+      <class name="com.amazon.testscript.VerifyKindleOrderPageTest">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="setupDriver" is-config="true" duration-ms="30848" started-at="2018-10-21T22:39:59Z" finished-at="2018-10-21T22:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2018-10-21T22:40:30Z" finished-at="2018-10-21T22:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.testscript.VerifyKindleOrderPageTest.verifyShopByDepartment() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyShopByDepartment()[pri:1, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="verifyShopByDepartment" duration-ms="296" started-at="2018-10-21T22:40:30Z" finished-at="2018-10-21T22:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShopByDepartment -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-10-21T22:40:30Z" finished-at="2018-10-21T22:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.testscript.VerifyKindleOrderPageTest.verifyKindle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyKindle()[pri:2, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="verifyKindle" duration-ms="153" started-at="2018-10-21T22:40:30Z" finished-at="2018-10-21T22:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKindle -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-10-21T22:40:30Z" finished-at="2018-10-21T22:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.testscript.VerifyKindleOrderPageTest.verifyKindlePaperWhite() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyKindlePaperWhite()[pri:3, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="verifyKindlePaperWhite" duration-ms="11520" started-at="2018-10-21T22:40:30Z" finished-at="2018-10-21T22:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyKindlePaperWhite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:42Z" finished-at="2018-10-21T22:40:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.testscript.VerifyKindleOrderPageTest.verifyQuantityDropdown() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyQuantityDropdown()[pri:4, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="verifyQuantityDropdown" duration-ms="2084" started-at="2018-10-21T22:40:42Z" finished-at="2018-10-21T22:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuantityDropdown -->
+        <test-method status="PASS" signature="verifyQuantitySelection()[pri:5, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="verifyQuantitySelection" duration-ms="300" started-at="2018-10-21T22:40:44Z" finished-at="2018-10-21T22:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuantitySelection -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:44Z" finished-at="2018-10-21T22:40:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.testscript.VerifyKindleOrderPageTest.verifyQuantitySelection() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-10-21T22:40:44Z" finished-at="2018-10-21T22:40:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.testscript.VerifyKindleOrderPageTest.verifyAddToCartBtn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAddToCartBtn()[pri:6, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="verifyAddToCartBtn" duration-ms="541" started-at="2018-10-21T22:40:44Z" finished-at="2018-10-21T22:40:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartBtn -->
+        <test-method status="PASS" signature="verifyNoExtraItem()[pri:7, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="verifyNoExtraItem" duration-ms="6988" started-at="2018-10-21T22:40:44Z" finished-at="2018-10-21T22:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoExtraItem -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:44Z" finished-at="2018-10-21T22:40:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.testscript.VerifyKindleOrderPageTest.verifyNoExtraItem() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-10-21T22:40:51Z" finished-at="2018-10-21T22:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.testscript.VerifyKindleOrderPageTest.verifyCheckout() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyCheckout()[pri:8, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="verifyCheckout" duration-ms="4535" started-at="2018-10-21T22:40:51Z" finished-at="2018-10-21T22:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckout -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-21T22:40:56Z" finished-at="2018-10-21T22:40:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.testscript.VerifyKindleOrderPageTest.verifySignIn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifySignIn()[pri:9, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="verifySignIn" duration-ms="127" started-at="2018-10-21T22:40:56Z" finished-at="2018-10-21T22:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignIn -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.amazon.testscript.VerifyKindleOrderPageTest@17c74e5]" name="closeDriver" is-config="true" duration-ms="3468" started-at="2018-10-21T22:40:56Z" finished-at="2018-10-21T22:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.amazon.testscript.VerifyKindleOrderPageTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
